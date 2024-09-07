@@ -9,14 +9,22 @@ body{
     align-items: center;
 }
 .container{
+    
     background: rgb(194, 190, 190);
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     line-height: 60px;
     padding: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
 }
 button{
+    width: 380px;
+    height: 200px;
     margin-bottom: 20px;
+    border-radius: 20px;
+    background: aqua;
+
 }
